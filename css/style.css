@@ -1,20 +1,28 @@
-
+header{
+    height: 122px;
+    background-color: rgb(95, 83, 83);
+    margin-bottom: 20px;
+}
 nav ul li {
     
     display: inline-block;
-   padding-left: 50px;
-
-   margin-right: 100px;
+    padding-left: 26px;
+    margin-right: 5px;
+    margin-left: 124px;
+    margin-top: 60px;
    
 }
-
-nav ul li:first-child{
-   
- 
+nav ul img{
+    position: absolute;
+    margin-left: 104px;
+    margin-top: 27px;
 }
-li:first-child{
-   margin: 50px;
-   text-align: center;
+
+ #one{
+    display: inline-block;
+    margin-left: 330px;
+    margin-top: 56px;
+
    
 }
 
@@ -22,8 +30,8 @@ nav ul li a {
     text-decoration: none;
     color: cornsilk;
 }
-nav{
-    background-color:rgb(100, 90, 90);
+section{
+    clear: both;
 }
   
 
@@ -71,11 +79,11 @@ section article:last-child p {
     float:right;
     
     width: 400px;
-    height: 400px;
+    height: 480px;
     text-align: left;
     padding-left:10px ;
     margin-right: 200px;
-    overflow-x: auto;
+    overflow-y:hidden;
     font-size: medium;
     }
 
@@ -94,4 +102,13 @@ article:last-child a{
     height: 35px;
     line-height: 35px;
     color: cornsilk;
+    margin-top: -86px;
+    
+}
+article:last-child a:hover{
+    background-color: cadetblue;
+}
+img{
+    filter: invert(100%);
+    
 }
